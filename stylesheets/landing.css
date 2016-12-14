@@ -31,7 +31,7 @@ body.landing .menubar div {
   width: 1440px;
   height: 800px;
   overflow: hidden;
-  /*background-color: #fcfffe;*/
+  background-color: #fcfffe;
 }
 
 .mainSection h2 {
@@ -49,7 +49,7 @@ body.landing .menubar div {
 }
 
 .mainSection.right {
-  /*background-color: #879696;*/
+  background-color: #879696;
 }
 
 .mainSection section {
@@ -76,18 +76,18 @@ body.landing .menubar div {
 
 .mainSection.center {
   text-align: center;
-  /*background-color: #879696;
-  border-color: #FAFAFA;*/
+  background-color: #879696;
+  border-color: #FAFAFA;
 }
 
 .mainSection.center h2 {
-  /*font-size: 44px;
-  line-height: 54px;*/
+  font-size: 44px;
+  line-height: 54px;
   color: white;
 }
 
 .mainSection.center p {
-  /*margin-top: 28px;*/
+  margin-top: 28px;
   color: white;
 }
 
@@ -212,8 +212,7 @@ body.landing .menubar div {
   }
 
   body.landing {
-    height: 3200px;
-    background-image: url(../images/mockups/1180.png);
+    /*background-image: url(../images/mockups/1180.png);*/
     background-repeat: no-repeat;
     background-position: top center;
   }
