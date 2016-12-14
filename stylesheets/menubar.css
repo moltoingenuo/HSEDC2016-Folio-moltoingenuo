@@ -21,3 +21,13 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 1180px) {
+  .menubar div {
+    height: 43px;
+  }
+
+  .logo {
+    height: 17px;
+  }
+}
