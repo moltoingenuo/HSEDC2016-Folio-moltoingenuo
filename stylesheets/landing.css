@@ -241,7 +241,6 @@ body.landing .menubar div {
   .mainSection {
     width: 1180px;
     height: 568px;
-    /*background-color: #fcfffe;*/
   }
 
   .mainSection h2 {
@@ -274,10 +273,6 @@ body.landing .menubar div {
     top: 137px;
   }
 
-  .mainSection.right {
-    /*background-color: #879696;*/
-  }
-
   .mainSection.right section {
     right: -46px;
     top: 137px;
@@ -285,8 +280,6 @@ body.landing .menubar div {
 
   .mainSection.center {
     text-align: center;
-    /*background-color: #879696;
-    border-color: #FAFAFA;*/
   }
 
   .mainSection.center section {
@@ -387,7 +380,6 @@ body.landing .menubar div {
   .mainSection {
     width: 840px;
     height: 1024px;
-    /*background-color: #fcfffe;*/
   }
 
   .mainSection h2 {
@@ -420,10 +412,6 @@ body.landing .menubar div {
     top: 137px;
   }
 
-  .mainSection.right {
-    /*background-color: #879696;*/
-  }
-
   .mainSection.right section {
     right: -87px;
     top: 137px;
@@ -431,8 +419,6 @@ body.landing .menubar div {
 
   .mainSection.center {
     text-align: center;
-    /*background-color: #879696;
-    border-color: #FAFAFA;*/
   }
 
   .mainSection.center section {
@@ -499,7 +485,6 @@ body.landing .menubar div {
     width: 100%;
   }
 }
-<<<<<<< HEAD
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   #mockup1 {
