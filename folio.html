@@ -2,19 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
 
     <title>Folio</title>
 
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <meta name="description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
+    <meta name="keywords" content="hack, exchange, html, css, javascript, hse, design, rap, yo">
+
+    <meta property="og:type" content="site">
+    <meta property="og:url" content="http://folio.hack.exchange">
+    <meta property="og:title" content="Шаблон сайта-портфолио">
+    <meta property="og:description" content="Шаблон сайта-портфолио, разработанный командой Hæd Exchange для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
+    <meta property="og:image" content="url(share.png)">
+
 
     <link rel="icon" type="image/png" href="favicon.png" />
 
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+    <link rel="stylesheet" href="social-likes_birman.css">
     <script src="javascripts/jquery-3.1.1.js"></script>
     <script src="javascripts/social-likes.min.js"></script>
+
+    <style media="screen">
+    </style>
   </head>
-
   <body class="landing">
-
     <nav class="menubar">
       <div>
         <a class="logo"></a>
@@ -106,11 +119,8 @@
         <footer>
           <p>Пожалуйста, поделитесь знаниями с друзьями</p>
 
-          <div class="social-likes social-likes_single" data-single-title="Поделиться" data-url="http://">
-            <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
-            <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
-            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
-            <div class="pinterest" title="Поделиться картинкой на Пинтересте" data-media="">Pinterest</div>
+          <div class="social-likes social-likes_single" data-single-title="Поделиться" data-url="http://folio.hack.exchange" data-single-title="Share">
+          	<div class="facebook" title="Share link on Facebook">Facebook</div>
           </div>
         </footer>
       </section>

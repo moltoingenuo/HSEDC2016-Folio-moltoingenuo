@@ -9,6 +9,14 @@ body.landing * {
   transition: all .3s ease;
 }
 
+.full {
+  display: block;
+}
+
+.compact {
+  display: none;
+}
+
 body.landing .menubar div {
   max-width: 1440px;
   margin: 0 auto;
@@ -16,8 +24,15 @@ body.landing .menubar div {
 
 .landingWrapper {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   overflow: hidden;
   width: 1440px;
@@ -487,5 +502,27 @@ body.landing .menubar div {
 @media screen and (max-width: 768px) {
   .landingWrapper {
     width: 100%;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 {
+    background-image: url(../images/about@2x.png);
+  }
+
+  #mockup2-1 {
+    background-image: url(../images/about@2x.png);
+  }
+
+  #mockup2-2 {
+    background-image: url(../images/works@2x.png);
+  }
+
+  #mockup2-3 {
+    background-image: url(../images/work@2x.png);
+  }
+
+  #mockup3 {
+    background-image: url(../images/screens@2x.png);
   }
 }
