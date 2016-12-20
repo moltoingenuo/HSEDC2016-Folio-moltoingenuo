@@ -36,6 +36,7 @@ body.landing .menubar div {
   align-items: center;
   overflow: hidden;
   width: 1440px;
+  min-width: 768px;
   margin: 0 auto;
   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
 }
@@ -194,12 +195,6 @@ body.landing .menubar div {
   width: 763px;
   height: 405px;
   background-image: url(../images/screens.png);
-}
-
-@media screen and (max-width: 1680px) {
-  .landingWrapper {
-    width: 1440px;
-  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -504,6 +499,7 @@ body.landing .menubar div {
     width: 100%;
   }
 }
+<<<<<<< HEAD
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   #mockup1 {
