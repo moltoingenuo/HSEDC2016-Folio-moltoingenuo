@@ -507,22 +507,22 @@ body.landing .menubar div {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   #mockup1 {
-    background-image: url(../images/about@2x.png);
+    background-image: url(../images/about@2x.jpg);
   }
 
   #mockup2-1 {
-    background-image: url(../images/about@2x.png);
+    background-image: url(../images/about@2x.jpg);
   }
 
   #mockup2-2 {
-    background-image: url(../images/works@2x.png);
+    background-image: url(../images/works@2x.jpg);
   }
 
   #mockup2-3 {
-    background-image: url(../images/work@2x.png);
+    background-image: url(../images/work@2x.jpg);
   }
 
   #mockup3 {
-    background-image: url(../images/screens@2x.png);
+    background-image: url(../images/screens@2x.jpg);
   }
 }
