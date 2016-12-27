@@ -2,6 +2,7 @@ body.landing {
   /*background-image: url(../images/mockups/1440.png);*/
   background-repeat: no-repeat;
   background-position: top center;
+  background-color: #FAFAFA;
 }
 
 body.landing * {
@@ -117,7 +118,7 @@ body.landing .menubar div {
   width: 30px;
   height: 4px;
   margin-top: 56px;
-  background: url(../images/pattern.png);
+  background-color: #50E3C2;
 }
 
 .mainSection.left section figure {
